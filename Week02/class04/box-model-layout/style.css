@@ -1,0 +1,46 @@
+.container{
+	background-color: lightgray;
+	padding: 10px;
+	margin: 0 auto;
+	width: 90%;
+	/*height: 200px;*/
+}
+
+.common{
+	width: 90%;
+	height: 100px;
+	background-color: pink;
+	margin: 10px;
+	margin-left: 5%;
+}
+
+#nav{
+	text-align: center;
+	background-color: black;
+	height: 50px;
+	line-height: 50px;
+}
+
+#nav a{
+	color: white;
+	height: 10px;
+	}
+
+.common p{
+	text-align: center;
+	height: 25px;
+	margin: 0 auto;
+}	
+
+#first{
+	color: blue;
+}
+
+#second{
+	color: green;
+}
+
+#third{
+	color: yellow;
+
+}

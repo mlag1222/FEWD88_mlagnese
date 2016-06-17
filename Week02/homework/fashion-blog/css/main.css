@@ -1,0 +1,131 @@
+/*Content:
+    720px wide
+    54px of padding
+    solid, left, 6px, border, #dddddd
+
+High-level text properties:
+    #444444
+    "Lato" font
+    1.5 line-height
+
+Links:
+    #DD0000
+
+Links hover:
+    #aa0000
+
+done Navigation links:
+    #dddddd
+
+done Navigation links hover:
+    black
+
+done Date: 
+    #cccccc
+
+done Article Title
+    black
+
+doneCopyright
+    #bbbbbb */
+
+body{
+	width: 720px;
+	padding: 54px;
+	font-family: lato;
+	line-height: 1.5;
+}
+
+h1{
+	color: red;
+	font-weight: normal;
+	font-family: lato;
+	line-height: 1.5;
+	font-size: 50px;
+	margin-top: -20px;
+	margin-bottom: -30px;
+	font-size: 50px;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+h2{
+	color: #cccccc;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-top: 60px;
+
+	}
+
+#topnav{
+	margin-top: -20px;
+}
+
+h3{
+	color: black;
+	font-size: 28px;
+	font-family: lato;
+	line-height: 1.5;
+	font-weight: normal;
+	margin-bottom: -10x;
+}
+
+header a, footer a{
+	color: #dddddd;
+	font-family: lato;
+	line-height: 1.5;
+}
+
+a:hover{
+	color: black;
+}
+
+h4 {
+	font-size: 28px;
+	font-weight: normal;
+	margin-top: -18px;
+	margin-bottom: 5px;
+}
+
+.article{
+	border-bottom-color: #dddddd;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	text-align: left;
+	font-family: lato;
+	line-height: 1.5;
+}
+
+#link{
+	color: #DD0000;
+	text-align: right;
+	font-family: lato;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+#link:hover{
+	color: #aa0000;
+
+}
+
+#botnav ul{
+	color: red;
+	font-family: lato;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+#copyright{
+	color: #bbbbbb;
+	margin-top: 50px;
+}
