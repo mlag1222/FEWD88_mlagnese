@@ -122,7 +122,7 @@ h4 {
 	color: red;
 	font-family: lato;
 	line-height: 1.5;
-	font-size: 16px;
+	overflow: hidden;
 }
 
 #copyright{

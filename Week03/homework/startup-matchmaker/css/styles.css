@@ -1,0 +1,65 @@
+// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0 auto;
+}
+
+header{
+	background-color: black;
+	border-bottom-color: yellow;
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	color: yellow;
+	float: left;
+	margin: 20 0 20 20;
+}
+
+nav{
+	float: right; 
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	margin: 20 20 20 0;
+}
+
+a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#tagline{
+	background-color: #C6C6C6;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	clear: both;
+}
+
+#tagline p{
+	margin-top: 0px;
+}
+
+main{
+	background-image: url("../img/coworking_720.jpg");
+}
+
+.article{
+	float: right;
+	height: 350px;
+	width: 500px;
+	background-color: rgba(255,255,255,0.8);
+	font-family: Oswald;
+}
+
+button{
+	background-color: yellow;
+}
