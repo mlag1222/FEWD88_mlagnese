@@ -201,4 +201,32 @@ h3{
   text-decoration: none; 
 }
 
+/******************************************
+/* FOOTER
+/******************** ***********************/
+
+#sign{
+  max-height: 135px;
+  background-color: #f9e42e;   
+}
+#copyright{
+  max-height: 300px;
+  background-color: #121212;
+}
+
+#social{
+  text-align: center;
+}
+
+#copyright h1{
+  color: #f9e424;
+  text-align: center;
+}
+
+#copyright p{
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
 
