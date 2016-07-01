@@ -39,6 +39,9 @@ body {
   background-color: #f0efef;
 }
 
+a {
+  text-decoration: none;
+}
 
 /******************************************
 /* LAYOUT
@@ -65,7 +68,6 @@ main{
 aside{
   width: 240px;
   margin: 90px 0 0 20px;
-
   float: left;
 }
 
@@ -99,14 +101,13 @@ nav{
   padding-top: 45px;
 }
 
-nav ol{
+nav ul{
   list-style-type: none;
-  overflow: hidden
+  float: right;
 }
 
  nav li{
   display: inline;
-  float: right;
  }
 
 nav a{
@@ -118,7 +119,6 @@ nav a{
 /******************************************
 /* MAIN
 /*******************************************/
-
 
 
 main h2{
@@ -133,28 +133,21 @@ main p{
   color: #606161;
 }
 
-.class{
-  border-bottom-style: solid;
-}
-
-.read{
-  width: 300px;
-  float: right;
-}
-
-article a{
+h4{
+  text-align: right;
   font-weight: 600;
   font-size: 24px;
   color: #033048;
-  text-decoration: none;
-  text-align: right;
+  border-bottom-style: solid;
 }
 
-main p::first-letter {
+
+article p::first-letter {
     font-size: 300%;
     font-weight: 600;
     float: left;
   }
+
 
 /******************************************
 /* SIDEBAR
@@ -176,13 +169,11 @@ h3{
 }
 
 #catergories li{
-    display: block;
-    color: #000;
-    text-decoration: none;
+  max-height: 30px;
 }
 
 #catergories a{
-  font-weight: 600;
+  font-weight: 300;
   font-size: 24px;
 }
 
@@ -207,8 +198,21 @@ h3{
 
 #sign{
   max-height: 135px;
-  background-color: #f9e42e;   
+  background-color: #f9e42e; 
+  text-align: center; 
 }
+
+#button{
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #033048;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+
+}
+
 #copyright{
   max-height: 300px;
   background-color: #121212;
