@@ -12,32 +12,30 @@
 // - . text() or .html()
 // - .css()
 
-var count = 0
+var count = 0;
 
 $(document).ready(function(){
 
 
     $('#a10').click(function(){
-    	$('#out').html(+10)
+        count = count + 10;
+    	$('#out').html(count)
     });
 
- 
 	$('#a20').click(function(){
-    	$('#out').html(+20)
+        count = count + 20;
+    	$('#out').html(count)
 	});
 
-
     $('#a30').click(function(){
-    	$('#out').html(+30)
+        count = count + 30;
+    	$('#out').html(count)
     });
-
 
     $('#red').click(function(){
     	$('#out').css('background-color', 'red')
     });
-
-    // $('#out').click(function(){
-    // });
+ 
 
     $('#blue').click(function(){
     	$('#out').css('background-color', 'blue')
@@ -45,16 +43,25 @@ $(document).ready(function(){
 
 
     $('#n10').click(function(){
-    	$('#out').html(-10)
+        count = count - 10;
+    	$('#out').html(count)
     });
 
     $('#n20').click(function(){
-    	$('#out').html(-20)
+        count = count - 20;
+    	$('#out').html(count)
     });
 
     $('#n30').click(function(){
-    	$('#out').html(-30)
+        count = count - 30;
+    	$('#out').html(count)
    	});
 	
+   $('#out').click(function(){
+        count = 0;
+ +         $('#out').css('background-color', 'white')
+ +         $('#out').html(count);
+     });
+
 
 });
