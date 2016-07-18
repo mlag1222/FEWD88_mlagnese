@@ -1,0 +1,25 @@
+
+
+#container{
+	margin: 0 auto;
+	height: 300px;
+	width: 600px;
+	border-style: solid;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+#convert{
+	margin-left: 255px;
+}
+
+#left_box{
+	height: 40px;
+	margin-left: 200px;
+}
+#right_box{
+	margin-left: 200px;
+}
