@@ -28,3 +28,30 @@ header nav a {
 	font-size: 20px;
 	margin-left: 50px;
 }
+
+#burger {
+	display: none;
+}
+
+#mobile-nav {
+	display: none;
+
+}
+
+#mobile-nav a{
+	display: block;
+	color: white;
+	text-align: center;
+	}
+
+@media screen and (max-width: 1024px) {
+	
+	#burger {
+		display: block;
+		float: right;
+	}
+	
+	#large-nav {
+		display: none;
+	}
+}
