@@ -1,0 +1,31 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+#intro{
+	margin: 0 auto;
+}
+
+h1, p{
+	text-align: center;
+}
+
+.movies{
+	height: 400px;
+
+}
+
+.thumb {
+	float: left;
+	margin: 5px;
+	height: 250px;
+	width: 250px;
+	cursor: pointer;
+}
+
+.quote {
+	clear:both;
+	font-size: 50px;
+	text-align: center;
+}

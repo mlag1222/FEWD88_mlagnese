@@ -1,0 +1,22 @@
+.wrapper {
+	text-align: center;
+}
+
+header {
+	background: blue;
+	position: fixed;
+	width: 100%;
+	transition: all 1000ms;
+}
+
+h1{
+	font-size: 48px;
+	color: white;
+	text-align: center;
+}
+
+.sticky{
+	background-color: red;
+	color: gold;
+	height: 100px;
+}
