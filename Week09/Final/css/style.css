@@ -11,9 +11,12 @@ h1, p{
 	text-align: center;
 }
 
+h1{
+	font-size: 48px;
+}
+
 .movies{
 	height: 400px;
-
 }
 
 .thumb {
@@ -26,6 +29,6 @@ h1, p{
 
 .quote {
 	clear:both;
-	font-size: 50px;
+	font-size: 48px;
 	text-align: center;
 }

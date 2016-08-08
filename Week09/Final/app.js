@@ -1,5 +1,5 @@
 $("#heat").click(function(){
-	$(".quote").html('Brother, you are going down');
+	$(".quote").html('Brother, you are going down.');
 });
 
 $("#godfather").click(function(){
@@ -12,6 +12,6 @@ $("#scarface").click(function(){
 });
 
 $("#scent").click(function(){
-	$(".quote").html('If I was the man I was five years ago, Id take a FLAMETHROWER TO THIS PLACE!');
+	$(".quote").html('If I was the man I was five years ago, I&#8217d take a FLAMETHROWER TO THIS PLACE!');
 });
 	
