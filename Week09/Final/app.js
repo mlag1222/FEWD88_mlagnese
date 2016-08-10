@@ -1,3 +1,5 @@
+var soundclip
+
 $("#heat").click(function(){
 	$(".quote").html('Brother, you are going down.');
 });
@@ -15,3 +17,5 @@ $("#scent").click(function(){
 	$(".quote").html('If I was the man I was five years ago, I&#8217d take a FLAMETHROWER TO THIS PLACE!');
 });
 	
+
+
